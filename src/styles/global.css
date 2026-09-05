@@ -1,0 +1,168 @@
+/* PivotEdu tasarim sistemi — renkler mevcut siteden birebir alindi */
+:root {
+  --navy: #0f1e40;
+  --navy-mid: #1b2d5c;
+  --orange: #ee6b2f;
+  --orange-dark: #d45a20;
+  --cream: #fff7f0;
+  --gray-bg: #f5f7fa;
+  --text: #374151;
+  --muted: #6b7280;
+  --line: #e5e7eb;
+  --white: #fff;
+
+  --wrap: 1140px;
+  --pad: clamp(16px, 4vw, 24px);
+  --radius: 10px;
+  --shadow: 0 1px 2px rgb(15 30 64 / 6%), 0 8px 24px rgb(15 30 64 / 8%);
+
+  --font: Roboto, system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+  --font-head: 'Roboto Slab', Georgia, serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--white);
+}
+
+img,
+svg,
+iframe {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--orange-dark);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: var(--orange);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-head);
+  color: var(--navy);
+  line-height: 1.25;
+  margin: 0 0 0.5em;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: clamp(30px, 5vw, 46px);
+}
+h2 {
+  font-size: clamp(25px, 3.6vw, 34px);
+}
+h3 {
+  font-size: clamp(20px, 2.6vw, 25px);
+}
+h4 {
+  font-size: 20px;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+ul,
+ol {
+  margin: 0 0 1em;
+  padding-left: 1.3em;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+th,
+td {
+  border: 1px solid var(--line);
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: var(--gray-bg);
+  color: var(--navy);
+  font-family: var(--font-head);
+}
+
+.wrap {
+  width: 100%;
+  max-width: var(--wrap);
+  margin-inline: auto;
+  padding-inline: var(--pad);
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--navy);
+  color: #fff;
+  padding: 10px 16px;
+  z-index: 200;
+}
+
+.skip-link:focus {
+  left: 8px;
+  top: 8px;
+}
+
+:where(a, button, summary, input, select, textarea):focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Yatay tasan icerik (tablo, kod) sayfayi kaydirmasin */
+.overflow-guard {
+  overflow-x: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

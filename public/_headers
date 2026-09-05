@@ -1,0 +1,5 @@
+# Cloudflare Pages / Netlify basliklari.
+# Staging'de HTTP seviyesinde de indekslemeyi engelle (meta etiketine ek guvence).
+# Canliya alirken BU BLOK SILINMELIDIR.
+/*
+  X-Robots-Tag: noindex, nofollow

@@ -1,0 +1,5771 @@
+{
+  "509840": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "2077127": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "2667690": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "3934422": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "6045831": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "6095153": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "6163616": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "6580869": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "6820902": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "450px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "7537508": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "15553820": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "space-between",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-kampus-5940838-scaled.jpg)",
+      "backgroundSize": "cover",
+      "backgroundPosition": "center center"
+    }
+  },
+  "16765513": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "23731800": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "26975904": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "29400678": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "33426677": {
+    "container": {
+      "paddingTop": "80px",
+      "paddingBottom": "80px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "justifyContent": "center",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "39355894": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "49802234": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "58999669": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "67601805": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "74311309": {
+    "container": {
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "76764390": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "space-around",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-joaojesusdesign-804715-scaled.jpg)",
+      "backgroundSize": "cover"
+    }
+  },
+  "76880165": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "66fae844": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "695f1bd1": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "1698c3e1": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "2b49ba5e": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "354e52e6": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "7106c27e": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "7a295de8": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "140340ed": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "431a9f05": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "34d1464": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "3a73fc1a": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "69613ee0": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "544d811e": {
+    "container": {
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "42a60a23": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "4e35a8a6": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "2cb57376": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "2a6d8fcf": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "356e5332": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column"
+    }
+  },
+  "b4b810e": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "b713771": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "450px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "18ee3a3": {
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "12853be": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "c4d5012": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "511275b": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "10b950f": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "49c4ce0": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "e62fea7": {
+    "container": {
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "66e413e": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "49eb41d": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "d0652e9": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "1e28f62": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "776ceaa": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "7940c9e": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "bb5a427": {
+    "container": {
+      "textAlign": "start"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "22px",
+      "fontWeight": "700"
+    }
+  },
+  "4785c67": {
+    "container": {
+      "borderRadius": "8px 8px 8px 8px"
+    }
+  },
+  "fba3a34": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "22px",
+      "fontWeight": "700"
+    }
+  },
+  "e1ce5ba": {
+    "container": {
+      "borderRadius": "8px 8px 8px 8px"
+    }
+  },
+  "4ec7707": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "22px",
+      "fontWeight": "700"
+    }
+  },
+  "1b365e0": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "22px",
+      "fontWeight": "700"
+    }
+  },
+  "0be8736": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "22px",
+      "fontWeight": "700"
+    }
+  },
+  "554f488": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "7e81e40": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "36412e1": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "f802fd5": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "9facc41": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "8bb7e7b": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "8f21181": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "be5cbc5": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "f22c996": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "87022fc": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "c9c5b36": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "22ca67b": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "44252a72": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#fff0",
+      "backgroundImage": "linear-gradient(180deg,#1B2D5C 72%,#EE6B2F 100%)",
+      "backgroundSize": "cover",
+      "backgroundPosition": "bottom center"
+    }
+  },
+  "848d80d": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "6157a392": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "1c58dbd6": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "11517db3": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "3e6c7804": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "ce85b6b": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "2331c8c": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "f4bf901": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "48589d2": {
+    "container": {
+      "paddingTop": "20px",
+      "paddingBottom": "40px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "4c85dd3e": {
+    "container": {
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "4705ceb0": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "64f90d71": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "4f144bfa": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "5a95a6dd": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "496b1555": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "5a223679": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "6ac43a31": {
+    "container": {
+      "justifyContent": "space-evenly",
+      "flexDirection": "row"
+    }
+  },
+  "4b3b475a": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "5ef10f39": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "16f2b53c": {
+    "container": {
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "46799c6f": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "2daca563": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "b9d7e09": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "5fb7d428": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "36d50ec0": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column"
+    }
+  },
+  "1f6938cd": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "3e52e407": {
+    "container": {
+      "paddingTop": "80px",
+      "paddingBottom": "80px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "justifyContent": "center",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "262cdb9e": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "527bf4db": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "2940edce": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "c8b1e77": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "minHeight": "520px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "85ecfc0": {
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "b4055c2": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px",
+      "fontWeight": "600"
+    }
+  },
+  "7842df0": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "28bccc0": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "8e67c1c": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "b68723e": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "4d72bdb": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "9106cff": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "cd45a13": {
+    "container": {
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "56c2d05": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "73ffa34": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "009c75e": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "03d1f88": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "10be8f8": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "5px 5px"
+    }
+  },
+  "0f0119c": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "73db259": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "89287c9": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "7f70959": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "02834ae": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "c0f1123": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "cd0923e": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "7a21ca2": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "f66a9a9": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "fa62182": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "35208c3": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "e3d2978": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "eb59277": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "e8728c3": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "76811ae": {
+    "container": {
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "e3edff3": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "d5facec": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "6673eae": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "faeaa35": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "973a33f": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "e896638": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "6596b8d": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "25daf44": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "e54bd82": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "bbaaa75": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "78b66c5": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "e310942": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "21eb023": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "2a4264b": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "cbb5138": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "e2d1a08": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "1557cdf": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "224b79b": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "1415b6d": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "51f27ce": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "d9f23af": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "d0f40ad": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "913ea6e": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "a2c87eb": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "a7d0bb4": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "72adb458": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-roy-ryu-2150807397-32329031-scaled.jpg)",
+      "backgroundSize": "cover",
+      "backgroundPosition": "0 733px"
+    }
+  },
+  "56dc25f1": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "3ead4803": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "5d046266": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "797aef93": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "28bf5a1": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "7af59bbc": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "bc9db75": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "123b7bc7": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "69f41912": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "2015076b": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "cc15067": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "49290f59": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "d0fce94": {
+    "container": {
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "214ddbce": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "1fc09ad4": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "225f56e1": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column"
+    }
+  },
+  "43f54433": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "93be1ec": {
+    "container": {
+      "flexDirection": "column"
+    }
+  },
+  "6e280f62": {
+    "container": {
+      "paddingTop": "80px",
+      "paddingBottom": "80px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "justifyContent": "center",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "7848368e": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "624px",
+      "justifyContent": "flex-end",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/spanish-flag-fluttering-with-cathedral-in-backgrou-2026-03-26-05-10-33-utc-scaled.jpg)",
+      "backgroundSize": "cover",
+      "backgroundPosition": "top center"
+    }
+  },
+  "5f425590": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "74cc8f0e": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "1b9079a4": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "78af4812": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "3529df53": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "73b69a09": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "3ab3b41a": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "85c1b23": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "62dc570": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "69ab1bf2": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "5d44dde1": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "7895cd81": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "5d616bfd": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "73c70bd7": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "655eaa0d": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "134e8890": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "5bf0b88e": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "354a6928": {
+    "container": {
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "4365043a": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "32c68bc3": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "86af06b": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column"
+    }
+  },
+  "50ee5fc9": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "25e7c550": {
+    "container": {
+      "paddingTop": "80px",
+      "paddingBottom": "80px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "justifyContent": "center",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "37bca37a": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "2717d598": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "60e5598c": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "738ba908": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "space-around",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-shreyas-sane-54878068-7822980-scaled.jpg)",
+      "backgroundSize": "cover",
+      "backgroundPosition": "center center"
+    }
+  },
+  "3829b9d7": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "537eb2fa": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "7caf4bfe": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "7d4654d4": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "668799ce": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "2228680c": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "5b6a1797": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "7c010b7": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "40px 40px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "7959b870": {
+    "container": {
+      "flexDirection": "column"
+    }
+  },
+  "3fc97b86": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "30ff7a8": {
+    "container": {
+      "paddingTop": "70px",
+      "paddingBottom": "70px",
+      "paddingLeft": "31px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "2235c470": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "2b12c3d8": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "49d8d939": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "5c770eaa": {
+    "container": {
+      "paddingTop": "80px",
+      "paddingBottom": "80px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "row",
+      "gap": "40px 40px"
+    }
+  },
+  "3c8dbaec": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "7876d419": {
+    "container": {
+      "paddingTop": "80px",
+      "paddingBottom": "80px",
+      "paddingLeft": "24px",
+      "paddingRight": "24px",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "7a054f0d": {
+    "container": {
+      "flexDirection": "column"
+    }
+  },
+  "0a66695": {
+    "container": {
+      "paddingTop": "28px",
+      "paddingBottom": "40px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "minHeight": "386px",
+      "justifyContent": "flex-start",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "96557a7": {
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "6269b54": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "6e901bb": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px",
+      "fontWeight": "600"
+    }
+  },
+  "09a92e7": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "31d94a1": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "7c37a8c": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "de9f2b3": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "e92be5a": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "47c4b4c": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "dadff52": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "d332ab3": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "39beafd": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "e20b1d3": {
+    "container": {
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "3227b59": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "ed0b0ee": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "9829d0d": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "d19f11a": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "61f3632": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "25dc91e": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "3c8ac9c": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "d1d08c2": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "600"
+    }
+  },
+  "4d868c6": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "bb38a13": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "51e4731": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "0ab919d": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "f8f8500": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "d881979": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "3e846bc": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "769dc1a": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "05992a4": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "4630f36": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "f503af4": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "65a1bb5": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "20a1035": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "97fcca0": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "6e3bad4": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "2bf3cbb": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "cf45431": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "5aa4192": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "de5252a": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "460853f": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "9ccffb3": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "a5f9057": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "2a239aa": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "e840b09": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "0a2924e": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "1344d4d": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "ba0ac2a": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "f994284": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "7c5de76": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "c5c335a": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "7c588e0": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "b78cc60": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "9b71b8c": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "88e24a9": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "9c08ba2": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "4db2bca": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "1e4bfb5": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "5e9feca": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "be2626b": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px"
+    }
+  },
+  "870916c": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "a73c2ad": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "0911d23": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "7cd1ab0": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "b213e1e": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "dddb026": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "35b1551": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "ae878e6": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "253f9a97": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "space-around",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-roy-ryu-2150807397-32329040-scaled.jpg)",
+      "backgroundSize": "cover",
+      "backgroundPosition": "center center"
+    }
+  },
+  "1a3ad30": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "43e91a94": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "5a51b458": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "77ecd99f": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "3f8f3f2": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "20px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "4e9ec8d3": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "1a451a6a": {
+    "container": {
+      "paddingTop": "20px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "12e0a832": {
+    "container": {
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "5bfff714": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "1b1614c": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "70f61ee": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "11ade69": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "223c3cf0": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "2511ca12": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "312438d1": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "3c871ff5": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "1407bd32": {
+    "container": {
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "40d74375": {
+    "container": {
+      "flexDirection": "row"
+    }
+  },
+  "1a7f9161": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "3e9f8e6": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "7ba7f269": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "73ba3f5": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "d787ebd": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "79cfdb8": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "1ca8351f": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column"
+    }
+  },
+  "78d7d24f": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "5cc91b00": {
+    "container": {
+      "paddingTop": "80px",
+      "paddingBottom": "80px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "justifyContent": "center",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "4a87c597": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "3bc8508c": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "64e50f54": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "6cf2c24e": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "space-around",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/beautiful-iconic-london-eye-in-front-of-thames-riv-2026-03-16-06-18-07-utc-scaled.jpg)",
+      "backgroundSize": "100% auto",
+      "backgroundPosition": "center center"
+    }
+  },
+  "7d8c3b60": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "515fab5b": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "459c2219": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "f01ca3f": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "30ff802d": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "60381cb5": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "28b93031": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "723916ad": {
+    "container": {
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "341bb543": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "5f58d63": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "c7c8436": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "1ae4f8f": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "7faa76c": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "f538944": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "730990e0": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "75c9cbbe": {
+    "container": {
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "64c8f38a": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "f115138": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "3957f4e": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "5ff4314c": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "712974b4": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "62fe8261": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column"
+    }
+  },
+  "4bffb305": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "6aa0cbb3": {
+    "container": {
+      "paddingTop": "80px",
+      "paddingBottom": "80px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "justifyContent": "center",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "560ae69c": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "3047fb72": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "361a8005": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "6e96dfae": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "space-around",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-alesiakozik-7072130-scaled.jpg)",
+      "backgroundSize": "cover"
+    }
+  },
+  "5cd7560d": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "d24da02": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "6c7e090b": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "26047a30": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "6fc7a47d": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "175ddf8f": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "40c3c8d0": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "66714ed4": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "70ff9b40": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "2a86341": {
+    "container": {
+      "flexDirection": "row"
+    }
+  },
+  "289a5c72": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "33b60fdd": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "26dc9a26": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "610c1e80": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "68fb0f36": {
+    "container": {
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "213d32ae": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "d1fe4ee": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "c63b8e5": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "0404227": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "8cf418c": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "8a426ce": {
+    "container": {
+      "backgroundColor": "#EE6B2F"
+    },
+    "title": {
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "15px"
+    }
+  },
+  "5641fd98": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "670cf17e": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "38e354db": {
+    "container": {
+      "flexDirection": "row",
+      "gap": "20px 20px"
+    }
+  },
+  "3280d6ab": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "c8c0503": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "3a935c1f": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column"
+    }
+  },
+  "74c69376": {
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "6c177577": {
+    "container": {
+      "paddingTop": "80px",
+      "paddingBottom": "80px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "justifyContent": "center",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "2a8a3390": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "347222b": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "c8702ed": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "af6da9c": {
+    "container": {
+      "paddingTop": "80px",
+      "paddingBottom": "80px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "3b0083f": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "38px",
+      "fontWeight": "700"
+    }
+  },
+  "4e2452b": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontWeight": "700"
+    }
+  },
+  "95a04b6": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "29px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "be5cab5": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "2f95185": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "9d493f1": {
+    "container": {
+      "borderRadius": "8px 8px 8px 8px"
+    }
+  },
+  "78a1052": {
+    "container": {
+      "flexDirection": "column"
+    }
+  },
+  "2672d45a": {
+    "container": {
+      "paddingTop": "80px",
+      "paddingBottom": "80px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "minHeight": "183px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "374d4842": {
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "44px",
+      "fontWeight": "700"
+    }
+  },
+  "5f49e02a": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "1119ac7": {
+    "container": {
+      "textAlign": "start"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "32px",
+      "fontWeight": "700"
+    }
+  },
+  "5ff9bc6": {
+    "container": {
+      "flexDirection": "column"
+    }
+  },
+  "33c0f594": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "5b8cc545": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "49b6a9e1": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "73e771fb": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "41275cd0": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "222cbbae": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "e5d04c5": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "1852d77e": {
+    "container": {
+      "paddingTop": "10px",
+      "paddingBottom": "10px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "minHeight": "0px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "gap": "5px 5px",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/trip-planning-with-map-2026-01-07-23-40-11-utc-scaled.jpg)",
+      "backgroundPosition": "-297px -626px"
+    }
+  },
+  "2de2b6f8": {
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "44px",
+      "fontWeight": "700"
+    }
+  },
+  "acd469d": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "dd0cfd2": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "5px 5px"
+    }
+  },
+  "128d0b0e": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "5591bfe": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "41c9890a": {
+    "container": {
+      "paddingTop": "20px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "50e6f190": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "7b8c14a7": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "6793df5c": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "space-around",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "2ca24757": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "2ab033ef": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "2f12195b": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "4e58b191": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "a3d57c3": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "10ae4a91": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "13bceb5b": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "450px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "7b5fed6": {
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "447ed1eb": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "stretch",
+      "flexDirection": "row"
+    }
+  },
+  "3d4e7a30": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "65cd3569": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "3c6d506d": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "182186dd": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "1055434e": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "dd650ab": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/almanya-universite-egitimi-hero-scaled.jpg)",
+      "backgroundSize": "cover"
+    }
+  },
+  "5d02837": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "21bddbe": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "d62acb5": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "b4ba75a": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "3c1703a": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "0ef5d10": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "e985f2a": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "7d598c4c": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "space-around",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "transparent",
+      "backgroundImage": "linear-gradient(180deg,#0F1E40 44%,#2F29F2 100%)",
+      "backgroundSize": "cover",
+      "backgroundPosition": "top center"
+    }
+  },
+  "7c08bbab": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "43add427": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "22c4e630": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "56fc1059": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "6d7c5a37": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "395c7d": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "a277e4c": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "5e23e2ca": {
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "7cbf7493": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "4fd16dc9": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "d63e23a": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "49a35de8": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "231de7cb": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "3d01ede4": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-timmossholder-8080493-scaled.jpg)",
+      "backgroundSize": "cover"
+    }
+  },
+  "1a6d3833": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "4b3941cd": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "1170591d": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "1477b495": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "27855ca1": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "2d1b7350": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "134ce143": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "a9f84bc": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "minHeight": "253px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "gap": "10px 10px",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "26ad481": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "35px",
+      "fontWeight": "700"
+    }
+  },
+  "6ae8bbd": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "e08d284": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px",
+      "fontWeight": "600"
+    }
+  },
+  "84b5e4b": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "0675e66": {
+    "container": {
+      "alignItems": "stretch",
+      "flexDirection": "row",
+      "gap": "16px 16px"
+    }
+  },
+  "b0ab1e0": {
+    "title": {
+      "fontSize": "29px",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px",
+      "fontWeight": "600"
+    }
+  },
+  "97f0ebe": {
+    "title": {
+      "fontSize": "29px",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px",
+      "fontWeight": "600"
+    }
+  },
+  "4f7deac": {
+    "title": {
+      "fontSize": "29px",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px",
+      "fontWeight": "600"
+    }
+  },
+  "aff26e1": {
+    "title": {
+      "fontSize": "29px",
+      "color": "#0F1E40"
+    },
+    "text": {
+      "color": "#374151",
+      "fontSize": "14px",
+      "fontWeight": "600"
+    }
+  },
+  "821726d": {
+    "container": {
+      "paddingTop": "110px",
+      "paddingBottom": "110px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "alignItems": "flex-start",
+      "flexDirection": "row",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "334f2402": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "space-around",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "transparent",
+      "backgroundImage": "linear-gradient(180deg,#1B2D5C 0%,#0F1E40 50%)",
+      "backgroundSize": "cover",
+      "backgroundPosition": "center center"
+    }
+  },
+  "1be7a223": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "2389600d": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "6b71c06": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "3011ef2a": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "140391b5": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "6ab1b231": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "37773b7e": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "348e845": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "450px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/04/avustralya-hero-sydney-panorama.jpg)",
+      "backgroundSize": "cover",
+      "backgroundPosition": "center center"
+    }
+  },
+  "d812ee4": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "35cb19b": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "33190ed": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "0d0076b": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "708c3c3": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "7045e8d": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "2b9b29de": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "450px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "99ee3aa": {
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "38200ea6": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "stretch",
+      "flexDirection": "row"
+    }
+  },
+  "75decf98": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "5ecdab1a": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "e60eb68": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "22a897fa": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "564bf912": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "e3c602e": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "450px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/04/ingiltere-hero-tower-bridge-wide.jpg)",
+      "backgroundSize": "cover",
+      "backgroundPosition": "center center"
+    }
+  },
+  "0386415": {
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "503695f": {
+    "button": {
+      "fontSize": "16px",
+      "fontWeight": "600"
+    }
+  },
+  "71e39b5": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "8de6aa0": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "268563b": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "72c71095": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-kelly-16563049-scaled.jpg)",
+      "backgroundSize": "cover"
+    }
+  },
+  "44b30ce9": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "69bdcce1": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "498e4a3b": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "57f567d6": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "6e5ffba0": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "34fa3a01": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "64be427d": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "e49e6a1": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "center",
+      "flexDirection": "column",
+      "backgroundColor": "transparent",
+      "backgroundImage": "linear-gradient(180deg,#1B2D5C 72%,#EE6B2F 100%)",
+      "backgroundSize": "cover",
+      "backgroundPosition": "bottom center"
+    }
+  },
+  "466dcf1": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "4360d0f2": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "6276fba7": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "19c14582": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "318cd1b8": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "af51e57": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "58d920f": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "599ebc14": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "7028b4f3": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "4be1978": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "5e66483": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "1104bf8a": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "18a22d64": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "294a8617": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "34754be3": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "450px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "557f2969": {
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "e346f69": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "stretch",
+      "flexDirection": "row"
+    }
+  },
+  "6a32e90b": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "c51df26": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "66fa75f9": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "38e824f7": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "62f77ee": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "19c337ce": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "space-around",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/view-of-a-shield-of-the-royal-palace-in-madrid-2026-03-26-01-43-42-utc.jpg)",
+      "backgroundSize": "cover"
+    }
+  },
+  "6c77b997": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "e6cdc1b": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "a40f54b": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "3e2343e0": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "5420e109": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "4a165b51": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "64a2e04c": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "189214bb": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "space-around",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/gulls-over-grand-canal-2026-03-25-10-48-58-utc-scaled.jpg)",
+      "backgroundSize": "cover"
+    }
+  },
+  "5bfc899b": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "598cdaee": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "1ddcf048": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "55c2f6bc": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "201816e3": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "5cf1e817": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "b8b5875": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "3fe5cca4": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "space-around",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-alesiakozik-7069392-scaled.jpg)",
+      "backgroundSize": "cover",
+      "backgroundPosition": "0px -717px"
+    }
+  },
+  "7fdebb93": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "197e83e2": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "b94a4ef": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "4c972a0f": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "32204e5f": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "78e4220e": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "71513e70": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "60cea31c": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "1911d613": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "9adea66": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "544a17ee": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "21b07d58": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "3d95c2d8": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "15387bfd": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "751911cf": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "562b7292": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "23e7b70d": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "66e41047": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "8ae7d5c": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "4af9d04c": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "258a62a0": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "388e104e": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "67d5958a": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "space-around",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "66dc7418": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "5dab0410": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "579b06f7": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "628b6670": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "2475bed2": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "5045a380": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "55fa9f4a": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "450px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "47c1c927": {
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "69d10c6": {
+    "container": {
+      "justifyContent": "center",
+      "flexDirection": "row"
+    }
+  },
+  "490e2465": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "bc96bff": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "442c322d": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "5fed562b": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "361a8fb5": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "5d5c25e1": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "520px",
+      "justifyContent": "center",
+      "flexDirection": "column",
+      "backgroundColor": "transparent",
+      "backgroundImage": "linear-gradient(180deg,#1B2D5C 72%,#EE6B2F 100%)",
+      "backgroundSize": "cover",
+      "backgroundPosition": "bottom center"
+    }
+  },
+  "e83f821": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "362efa60": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "5528d966": {
+    "container": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "row"
+    }
+  },
+  "2f863aa7": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "19f071f8": {
+    "button": {
+      "color": "#FFFFFF"
+    }
+  },
+  "1557415a": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "178cac6": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "424e54a4": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "20803ac": {
+    "container": {
+      "paddingTop": "80px",
+      "paddingBottom": "80px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "minHeight": "480px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "e0a42ea": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "076bf27": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "ef0aa9a": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px",
+      "fontWeight": "600"
+    }
+  },
+  "f01947c": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "8aeb6f2": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "031a952": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "86c1559": {
+    "container": {
+      "paddingTop": "80px",
+      "paddingBottom": "80px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "minHeight": "183px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/04/pexels-towfiqu-barbhuiya-3440682-10972830-scaled.jpg)",
+      "backgroundPosition": "center center"
+    }
+  },
+  "0e4c394": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "44px",
+      "fontWeight": "700"
+    }
+  },
+  "365fa8e": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "e9ed8f8": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "9d76803": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "f55f308": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "48d795cd": {
+    "container": {
+      "paddingTop": "100px",
+      "paddingBottom": "100px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "184px",
+      "justifyContent": "space-between",
+      "alignItems": "center",
+      "gap": "0px 0px",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/hands-point-on-map-where-to-go-travel-planing-vaca-2026-03-26-04-28-48-utc-1-scaled.jpg)",
+      "backgroundSize": "cover",
+      "backgroundPosition": "bottom center"
+    }
+  },
+  "58729fe1": {
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "6f3763": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "41c4720": {
+    "container": {
+      "justifyContent": "center",
+      "flexDirection": "row"
+    }
+  },
+  "17c87924": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "af3c48c": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "18e357f4": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "352c64fb": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#0F1E40",
+      "fontSize": "28px",
+      "fontWeight": "700"
+    }
+  },
+  "762c5559": {
+    "container": {
+      "textAlign": "start"
+    }
+  },
+  "3c79123": {
+    "container": {
+      "flexDirection": "column"
+    }
+  },
+  "a84ecb9": {
+    "container": {
+      "paddingTop": "60px",
+      "paddingBottom": "60px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "450px",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/yurt-disi-universite-egitimi.webp-scaled.jpg)",
+      "backgroundSize": "100%auto",
+      "backgroundPosition": "0px -107px"
+    }
+  },
+  "6c66b63": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "e7970c3": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "3cbf0d8": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px"
+    }
+  },
+  "1ce9a2e": {
+    "container": {
+      "paddingTop": "50px",
+      "paddingBottom": "50px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "flexDirection": "column",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "920102f": {
+    "container": {
+      "paddingTop": "35px",
+      "paddingBottom": "35px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "justifyContent": "center",
+      "backgroundColor": "#F5F7FA"
+    }
+  },
+  "bfedc6c": {
+    "container": {
+      "paddingTop": "80px",
+      "paddingBottom": "80px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "minHeight": "500px",
+      "justifyContent": "center",
+      "backgroundColor": "#1B2D5C"
+    }
+  },
+  "306f458": {
+    "container": {
+      "textAlign": "center"
+    },
+    "title": {
+      "color": "#FFFFFF",
+      "fontSize": "42px",
+      "fontWeight": "700"
+    }
+  },
+  "414c4e3": {
+    "container": {
+      "textAlign": "center"
+    }
+  },
+  "e020b99": {
+    "button": {
+      "color": "#FFFFFF",
+      "fontSize": "16px",
+      "fontWeight": "600"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# Metin dosyalari depoda LF olarak tutulur; calisma kopyasinda platform belirler.
+* text=auto eol=lf
+
+# Ikili dosyalara dokunma
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary

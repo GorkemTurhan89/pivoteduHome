@@ -1,0 +1,249 @@
+---
+// Alanlar, etiketler ve onay metinleri mevcut WPForms formundan birebir alindi.
+// action: staging'de bos -> gonderim devre disi. Canliya alirken bir endpoint yaz.
+const ACTION = import.meta.env.PUBLIC_FORM_ENDPOINT || '';
+
+const programs = [
+  'Yurt Dışı Dil Okulları',
+  'Yurt Dışı Lisans',
+  'Yurt Dışı Yüksek Lisans',
+  'Yaz Okulu',
+  'Work and Travel / Camp',
+  'Vize Danışmanlığı',
+  'Kararsızım / Danışmak İstiyorum',
+];
+
+const countries = [
+  'Avustralya',
+  'Amerika',
+  'Schengen Ülkeleri',
+  'İngiltere',
+  'Kanada',
+  'İrlanda',
+  'Dubai',
+  'Kararsızım / Danışmak İstiyorum',
+];
+---
+
+<form class="lead" method="post" action={ACTION} novalidate={!ACTION}>
+  {!ACTION && (
+    <p class="notice">
+      <strong>Önizleme:</strong> Bu form staging ortamında gönderim yapmaz. Canlıya alırken
+      <code>PUBLIC_FORM_ENDPOINT</code> tanımlanacak.
+    </p>
+  )}
+
+  <div class="grid2">
+    <p class="f">
+      <label for="ad">Ad Soyad <span aria-hidden="true">*</span></label>
+      <input id="ad" name="ad_soyad" type="text" required autocomplete="name" />
+    </p>
+
+    <p class="f">
+      <label for="tel">Telefon <span aria-hidden="true">*</span></label>
+      <input id="tel" name="telefon" type="tel" required autocomplete="tel" inputmode="tel" aria-describedby="tel-d" />
+      <span class="desc" id="tel-d">İletişim numaranızı yazınız.</span>
+    </p>
+  </div>
+
+  <p class="f">
+    <label for="mail">E-posta <span aria-hidden="true">*</span></label>
+    <input id="mail" name="eposta" type="email" required autocomplete="email" aria-describedby="mail-d" />
+    <span class="desc" id="mail-d">E-posta adresinizi yazınız.</span>
+  </p>
+
+  <div class="grid2">
+    <p class="f">
+      <label for="prog">İlgilenilen Program Türü <span aria-hidden="true">*</span></label>
+      <select id="prog" name="program" required>
+        <option value="">--- Seçim Seçin ---</option>
+        {programs.map((p) => <option value={p}>{p}</option>)}
+      </select>
+      <span class="desc">Lütfen size en uygun programı seçiniz.</span>
+    </p>
+
+    <p class="f">
+      <label for="ulke">İlgilenilen Ülke <span aria-hidden="true">*</span></label>
+      <select id="ulke" name="ulke" required>
+        <option value="">--- Seçim Seçin ---</option>
+        {countries.map((c) => <option value={c}>{c}</option>)}
+      </select>
+      <span class="desc">İlgilendiğiniz ülkeyi seçiniz.</span>
+    </p>
+  </div>
+
+  <p class="f">
+    <label for="msg">Mesaj</label>
+    <textarea id="msg" name="mesaj" rows="5" aria-describedby="msg-d"></textarea>
+    <span class="desc" id="msg-d">Eğitim hedefiniz, düşündüğünüz ülke veya merak ettiğiniz konular hakkında kısa bilgi yazabilirsiniz.</span>
+  </p>
+
+  <p class="chk-label">KVKK Onayı <span aria-hidden="true">*</span></p>
+  <p class="chk">
+    <input id="kvkk" name="kvkk" type="checkbox" required />
+    <label for="kvkk">
+      Kişisel verilerimin, başvurumun değerlendirilmesi ve danışmanlık sürecinin yürütülmesi amacıyla
+      işlenmesine ilişkin <a href="/kvkk-aydinlatma-metni/">KVKK Aydınlatma Metni</a>’ni okudum ve kabul
+      ediyorum.
+    </label>
+  </p>
+
+  <p class="chk-label">Bilgilendirme İzni <span aria-hidden="true">*</span></p>
+  <p class="chk">
+    <input id="izin" name="izin" type="checkbox" required />
+    <label for="izin">
+      Pivot Edu’nun yurt dışı eğitim programları, kampanyalar, dönemsel bilgilendirmeler ve başvuru
+      fırsatları hakkında benimle telefon, SMS, WhatsApp veya e-posta yoluyla iletişime geçmesine izin
+      veriyorum.
+    </label>
+  </p>
+
+  <p><button type="submit" class="submit" disabled={!ACTION}>Gönder</button></p>
+</form>
+
+<style>
+  .lead {
+    background: var(--gray-bg);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 26px;
+    margin: 12px 0 28px;
+  }
+
+  .notice {
+    background: var(--cream);
+    border-left: 4px solid var(--orange);
+    border-radius: 6px;
+    padding: 12px 16px;
+    font-size: 15px;
+    margin: 0 0 20px;
+  }
+
+  .notice code {
+    background: rgb(15 30 64 / 8%);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 13px;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 18px;
+  }
+
+  .f {
+    margin: 0 0 16px;
+  }
+
+  label {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--navy);
+    margin-bottom: 6px;
+  }
+
+  label span {
+    color: var(--orange);
+  }
+
+  input[type='text'],
+  input[type='tel'],
+  input[type='email'],
+  select,
+  textarea {
+    width: 100%;
+    font: inherit;
+    font-size: 16px;
+    color: var(--text);
+    background: var(--white);
+    border: 1px solid #cfd6e2;
+    border-radius: 7px;
+    padding: 11px 13px;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: var(--orange);
+    outline: 2px solid rgb(238 107 47 / 25%);
+    outline-offset: 0;
+  }
+
+  .desc {
+    display: block;
+    margin-top: 5px;
+    font-size: 13.5px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  .chk-label {
+    margin: 0 0 6px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--navy);
+  }
+
+  .chk-label span {
+    color: var(--orange);
+  }
+
+  .chk {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    margin: 0 0 14px;
+  }
+
+  .chk input {
+    margin-top: 4px;
+    width: 18px;
+    height: 18px;
+    flex: none;
+    accent-color: var(--orange);
+  }
+
+  .chk label {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .submit {
+    font: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    background: var(--orange);
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    padding: 13px 34px;
+    cursor: pointer;
+  }
+
+  .submit:hover:not(:disabled) {
+    background: var(--orange-dark);
+  }
+
+  .submit:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+
+  @media (max-width: 640px) {
+    .grid2 {
+      grid-template-columns: 1fr;
+    }
+    .lead {
+      padding: 20px 18px;
+    }
+  }
+</style>

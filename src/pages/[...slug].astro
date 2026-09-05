@@ -1,0 +1,93 @@
+---
+import Base from '../layouts/Base.astro';
+import Block from '../components/Block.astro';
+import pages from '../data/pages.json';
+import { sectionCss, innerCss, isDark } from '../lib/style';
+
+export function getStaticPaths() {
+  return (pages as any[]).map((p) => ({
+    // "/ulkeler/almanya/" -> "ulkeler/almanya" ; "/" -> undefined (kok sayfa)
+    params: { slug: p.slug.replace(/^\/|\/$/g, '') || undefined },
+    props: { page: p },
+  }));
+}
+
+const { page } = Astro.props as { page: any };
+---
+
+<Base
+  title={page.title}
+  description={page.description}
+  ogImage={page.ogImage}
+  robots={page.robots}
+  path={page.slug}
+>
+  {
+    page.sections.map((s: any) => {
+      const sec = sectionCss(s.style);
+      const inner = innerCss(s.style);
+      const dark = isDark(s.style);
+      return (
+        <section class:list={['sec', { dark, band: !!sec }]} style={sec}>
+          <div class="wrap" style={inner}>
+            <Block node={{ ...s, style: null }} />
+          </div>
+        </section>
+      );
+    })
+  }
+</Base>
+
+<style>
+  .sec {
+    padding-block: 10px;
+  }
+
+  /* Zemini olan bolumler tam genislik, icerik ortada kalir */
+  .sec.band {
+    padding-block: 0;
+  }
+
+  .sec.band > .wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: inherit;
+  }
+
+  /* Koyu zeminli bolumde metin acik renge doner */
+  .sec.dark,
+  .sec.dark :global(p),
+  .sec.dark :global(li),
+  .sec.dark :global(h1),
+  .sec.dark :global(h2),
+  .sec.dark :global(h3),
+  .sec.dark :global(h4) {
+    color: #fff;
+  }
+
+  .sec.dark :global(a:not(.btn)) {
+    color: #ffd9c4;
+  }
+
+  /* Icerikten gelen ham HTML icin makul varsayilanlar */
+  .sec :global(.prose img) {
+    border-radius: 8px;
+    margin-block: 14px;
+  }
+
+  .sec :global(.prose table) {
+    display: block;
+    overflow-x: auto;
+    white-space: normal;
+  }
+
+  .sec :global(.prose ul),
+  .sec :global(.prose ol) {
+    padding-left: 1.25em;
+  }
+
+  .sec :global(.prose > :last-child) {
+    margin-bottom: 0;
+  }
+</style>

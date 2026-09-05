@@ -1,0 +1,59 @@
+// Elementor'dan kurtarilan stil nesnelerini CSS metnine cevirir.
+
+export type StyleObj = Record<string, string> | null | undefined;
+
+const camelToKebab = (k: string) => k.replace(/[A-Z]/g, (m) => '-' + m.toLowerCase());
+
+// Bolumun kendisine (tam genislik) uygulanacak ozellikler
+const SECTION_KEYS = new Set([
+  'backgroundColor',
+  'backgroundImage',
+  'backgroundSize',
+  'backgroundPosition',
+  'backgroundRepeat',
+  'minHeight',
+  'paddingTop',
+  'paddingBottom',
+  'borderRadius',
+]);
+
+// Ic sarmalayiciya uygulanacak ozellikler
+const INNER_KEYS = new Set([
+  'justifyContent',
+  'alignItems',
+  'flexDirection',
+  'gap',
+  'textAlign',
+]);
+
+function toCss(o: StyleObj, allow: Set<string>): string | undefined {
+  if (!o) return undefined;
+  const parts: string[] = [];
+  for (const [k, v] of Object.entries(o)) {
+    if (!allow.has(k) || !v) continue;
+    parts.push(`${camelToKebab(k)}:${v}`);
+  }
+  return parts.length ? parts.join(';') : undefined;
+}
+
+export const sectionCss = (o: StyleObj) => toCss(o, SECTION_KEYS);
+export const innerCss = (o: StyleObj) => toCss(o, INNER_KEYS);
+
+// Widget metin stilleri (baslik rengi, punto, hizalama)
+const TEXT_KEYS = new Set(['color', 'fontSize', 'fontWeight', 'lineHeight', 'textAlign']);
+export const textCss = (o: StyleObj) => toCss(o, TEXT_KEYS);
+
+// Bir bolumun zemini koyu mu? Koyuysa icindeki metni acik renge cekeriz.
+export function isDark(o: StyleObj): boolean {
+  const bg = o?.backgroundColor;
+  if (!bg) return false;
+  const m = bg.trim().match(/^#([0-9a-f]{3}|[0-9a-f]{6})$/i);
+  if (!m) return false;
+  let h = m[1];
+  if (h.length === 3) h = h.split('').map((c) => c + c).join('');
+  const r = parseInt(h.slice(0, 2), 16);
+  const g = parseInt(h.slice(2, 4), 16);
+  const b = parseInt(h.slice(4, 6), 16);
+  // Algilanan parlaklik (ITU-R BT.601)
+  return (r * 299 + g * 587 + b * 114) / 1000 < 140;
+}

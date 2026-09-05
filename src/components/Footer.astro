@@ -1,0 +1,113 @@
+---
+import { footerNav, site, whatsappHref } from '../data/site';
+const year = new Date().getFullYear();
+---
+
+<footer class="ftr">
+  <div class="wrap ftr-in">
+    <div class="col">
+      <img src={site.logo} alt={site.logoAlt} width="250" height="100" class="flogo" />
+      <p class="tag">Yurt dışı eğitim ve vize danışmanlığı</p>
+    </div>
+
+    <div class="col">
+      <h2>İletişim</h2>
+      <ul class="plain">
+        <li><a href={site.phoneMobile.href}>{site.phoneMobile.label}</a></li>
+        <li><a href={site.phoneOffice.href}>{site.phoneOffice.label}</a></li>
+        <li><a href={`mailto:${site.email}`}>{site.email}</a></li>
+        <li><a href={whatsappHref} target="_blank" rel="noopener">WhatsApp</a></li>
+      </ul>
+    </div>
+
+    <div class="col">
+      <h2>Kurumsal</h2>
+      <ul class="plain">
+        <li><a href="/hakkimizda/">Hakkımızda</a></li>
+        <li><a href="/ucretsiz-danismanlik-al/">Ücretsiz Danışmanlık</a></li>
+        <li><a href="/iletisim/">İletişim</a></li>
+        {footerNav.map((f) => <li><a href={f.href}>{f.label}</a></li>)}
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrap bar">
+    <p>© {year} {site.name}. Tüm hakları saklıdır.</p>
+  </div>
+</footer>
+
+<style>
+  .ftr {
+    margin-top: 64px;
+    background: var(--navy);
+    color: #c9d3e6;
+  }
+
+  .ftr-in {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 40px;
+    padding-block: 48px 32px;
+  }
+
+  .flogo {
+    width: 170px;
+    height: auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px 14px;
+  }
+
+  .tag {
+    margin-top: 14px;
+    font-size: 15px;
+    color: #9fb0cc;
+  }
+
+  .ftr h2 {
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 14px;
+  }
+
+  .plain {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .plain li {
+    margin-bottom: 9px;
+  }
+
+  .ftr a {
+    color: #c9d3e6;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  .ftr a:hover {
+    color: var(--white);
+    text-decoration: underline;
+  }
+
+  .bar {
+    border-top: 1px solid rgb(255 255 255 / 12%);
+    padding-block: 18px 24px;
+  }
+
+  .bar p {
+    margin: 0;
+    font-size: 14px;
+    color: #8ea1c0;
+  }
+
+  @media (max-width: 780px) {
+    .ftr-in {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+  }
+</style>
