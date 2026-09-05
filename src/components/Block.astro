@@ -1,7 +1,7 @@
 ---
 import Self from './Block.astro';
 import LeadForm from './LeadForm.astro';
-import { sectionCss, innerCss, textCss, isDark } from '../lib/style';
+import { sectionCss, innerCss, textCss, buttonCss, isDark } from '../lib/style';
 
 const { node } = Astro.props as { node: any };
 
@@ -31,13 +31,12 @@ function group(children: any[]) {
 
 const t = node?.type;
 
-// Elementor hizalamayi widget konteynerinde (box) tutar; baslik ve metin
-// bloklarina tasimazsak orijinalde ortali olan icerik sola yasli kaliyor.
+// Elementor tipografiyi iki yere yazar: widget'in kendi secicisine (baslik rengi,
+// punto) ve widget konteynerinin secicisine (hizalama, punto, renk — ornegin hero
+// paragrafi 18px + beyaz). Ikisini birlestiriyoruz, widget'in kendi degeri onceliklidir.
+// textCss yalnizca tipografi anahtarlarini gecirir, kutu ozellikleri sizmaz.
 function withAlign(styleObj: any, boxObj: any) {
-  const align = boxObj?.textAlign;
-  const base = textCss(styleObj);
-  if (!align) return base;
-  return [base, `text-align:${align}`].filter(Boolean).join(';');
+  return textCss({ ...(boxObj || {}), ...(styleObj || {}) });
 }
 
 // Buton hizasi: once widget sinifi (elementor-align-*), yoksa konteynerin hizasi.
@@ -96,7 +95,7 @@ const rowStyle = [rowSec, rowInner].filter(Boolean).join(';') || undefined;
 {
   t === 'button' && node.href && (
     <p class:list={['btn-wrap', node.align === 'justify' && 'justify']} style={btnAlign}>
-      <a class="btn" href={node.href}>
+      <a class="btn" href={node.href} style={buttonCss(node.style)}>
         {node.text}
       </a>
     </p>
@@ -257,6 +256,10 @@ const rowStyle = [rowSec, rowInner].filter(Boolean).join(';') || undefined;
     font-size: 16px;
     padding: 13px 28px;
     border-radius: 8px;
+    /* Uretimde butonlar alti cizili geliyor (Hello Elementor'un
+       ".page-content a { text-decoration: underline }" kurali butonu da yakaliyor).
+       Bu istenmeyen bir yan etki oldugu icin BILEREK uretimden sapiliyor:
+       buton alanlari cizgisiz, tiklanabilir metinler cizgili. */
     text-decoration: none;
     transition: background 0.15s, transform 0.15s;
   }
@@ -337,16 +340,14 @@ const rowStyle = [rowSec, rowInner].filter(Boolean).join(';') || undefined;
     padding: 4px 20px 18px;
   }
 
+  /* Uretimde olculdu: kutu seffaf, dolgusuz, kosesiz ve sola yasli;
+     sayi 42px/700 turuncu, baslik 16px/500 ve bolumun metin rengini miras alir. */
   .counter {
-    background: var(--gray-bg);
-    border-radius: var(--radius);
-    padding: 24px 18px;
-    text-align: center;
+    text-align: left;
   }
 
   .counter-n {
-    font-family: var(--font-head);
-    font-size: clamp(30px, 4vw, 40px);
+    font-size: 42px;
     font-weight: 700;
     color: var(--orange);
     line-height: 1.1;
@@ -354,8 +355,9 @@ const rowStyle = [rowSec, rowInner].filter(Boolean).join(';') || undefined;
 
   .counter-t {
     margin-top: 6px;
-    font-size: 15px;
-    color: var(--navy);
+    font-size: 16px;
+    font-weight: 500;
+    color: inherit;
   }
 
   .anchor {

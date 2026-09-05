@@ -28,7 +28,7 @@ const { page } = Astro.props as { page: any };
       const inner = innerCss(s.style);
       const dark = isDark(s.style);
       return (
-        <section class:list={['sec', { dark, band: !!sec }]} style={sec}>
+        <section class:list={['sec', { dark, band: !!sec, full: s.width === 'full' }]} style={sec}>
           <div class="wrap" style={inner}>
             <Block node={{ ...s, style: null }} />
           </div>
@@ -60,8 +60,14 @@ const { page } = Astro.props as { page: any };
     flex-direction: column;
     justify-content: center;
     min-height: inherit;
-    /* Zeminli bolumlerde metne yanlarda biraz daha nefes payi */
-    max-width: 1280px;
+  }
+
+  /* Elementor "e-con-full": icerik genislik siniri YOK, tam ekrani kullanir.
+     Hero bunu kullandigi icin uretimde H1 masaustunde tek satirda kaliyor.
+     Kutulu (e-con-boxed) bolumler --wrap (1140px) ile sinirli kalir. */
+  .sec.full > .wrap {
+    max-width: none;
+    padding-inline: max(var(--sec-pl, 0px), var(--pad));
   }
 
   @media (max-width: 700px) {
@@ -85,6 +91,28 @@ const { page } = Astro.props as { page: any };
 
   .sec.dark :global(a:not(.btn)) {
     color: #ffd9c4;
+  }
+
+  /* --- Link gorunumu ---
+     Kural: buton gorunumlu alanlar cizgisiz, METIN AKISI icindeki linkler cizgili.
+
+     Ayirt edici olan, linkin ebeveyni:
+       p / li icinde  -> metin akisinin parcasi, cizgili olmali (97 cumle ici + 148 liste)
+       div icinde     -> yerlesim kabi; ornegin .pivot-link-cloud linkleri
+                         hap seklinde buton (padding 15px 22px, border-radius 999px,
+                         kenarlik + golge) -> cizilmemeli (119 adet)
+     Kart sarmalayicilar ve buton sinifli linkler zaten [class] tasidigi icin disarida. */
+  .sec :global(.prose p > a:not([class])),
+  .sec :global(.prose li > a:not([class])) {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  /* Kart icindeki "Detaylari Incele →" gibi CTA metinleri: kart cizilmez,
+     yalnizca bu vurgulu metin cizilir (144 adet). */
+  .sec :global(.prose a strong) {
+    text-decoration: underline;
+    text-underline-offset: 2px;
   }
 
   /* Icerikten gelen ham HTML icin makul varsayilanlar */

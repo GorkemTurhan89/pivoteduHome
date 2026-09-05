@@ -16,8 +16,12 @@
   --radius: 10px;
   --shadow: 0 1px 2px rgb(15 30 64 / 6%), 0 8px 24px rgb(15 30 64 / 8%);
 
-  --font: Roboto, system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
-  --font-head: 'Roboto Slab', Georgia, serif;
+  /* Uretimdeki gercek yigin. Hello Elementor temasi body'ye bunu yazar,
+     h1/h2 ise "font-family: inherit" ile ayni yigini kullanir. Uretim hicbir
+     Google Font yuklemez; Roboto/Roboto Slab tanimli ama hicbir widget kullanmaz. */
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif;
+  --font-head: var(--font);
 }
 
 *,
@@ -35,8 +39,9 @@ html {
 body {
   margin: 0;
   font-family: var(--font);
-  font-size: 17px;
-  line-height: 1.7;
+  /* Uretim: font-size:1rem; line-height:1.5 */
+  font-size: 1rem;
+  line-height: 1.5;
   color: var(--text);
   background: var(--white);
 }
@@ -72,11 +77,14 @@ h6 {
   color: var(--navy);
   line-height: 1.25;
   margin: 0 0 0.5em;
-  text-wrap: balance;
+  /* text-wrap: balance BILEREK yok: uretimde tanimli degil ve satir kirilma
+     noktalarini degistirerek basliklarin uretimden farkli bolunmesine yol aciyor. */
 }
 
 h1 {
   font-size: clamp(30px, 5vw, 46px);
+  /* Uretimde olculdu: 42px punto / 42px satir yuksekligi = 1.0 (tum sayfalarda) */
+  line-height: 1;
 }
 h2 {
   font-size: clamp(25px, 3.6vw, 34px);
