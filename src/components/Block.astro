@@ -30,6 +30,26 @@ function group(children: any[]) {
 }
 
 const t = node?.type;
+
+// Elementor hizalamayi widget konteynerinde (box) tutar; baslik ve metin
+// bloklarina tasimazsak orijinalde ortali olan icerik sola yasli kaliyor.
+function withAlign(styleObj: any, boxObj: any) {
+  const align = boxObj?.textAlign;
+  const base = textCss(styleObj);
+  if (!align) return base;
+  return [base, `text-align:${align}`].filter(Boolean).join(';');
+}
+
+// Buton hizasi: once widget sinifi (elementor-align-*), yoksa konteynerin hizasi.
+const btnAlign =
+  t === 'button'
+    ? node.align && node.align !== 'justify'
+      ? `text-align:${node.align}`
+      : node.box?.textAlign
+        ? `text-align:${node.box.textAlign}`
+        : undefined
+    : undefined;
+
 const rowSec = t === 'row' ? sectionCss(node.style) : undefined;
 const rowInner = t === 'row' ? innerCss(node.style) : undefined;
 const rowDark = t === 'row' ? isDark(node.style) : false;
@@ -52,14 +72,14 @@ const rowStyle = [rowSec, rowInner].filter(Boolean).join(';') || undefined;
   )
 }
 
-{t === 'heading' && node.level === 1 && <h1 style={textCss(node.style)} set:html={node.html} />}
-{t === 'heading' && node.level === 2 && <h2 style={textCss(node.style)} set:html={node.html} />}
-{t === 'heading' && node.level === 3 && <h3 style={textCss(node.style)} set:html={node.html} />}
-{t === 'heading' && node.level === 4 && <h4 style={textCss(node.style)} set:html={node.html} />}
-{t === 'heading' && node.level === 5 && <h5 style={textCss(node.style)} set:html={node.html} />}
-{t === 'heading' && node.level === 6 && <h6 style={textCss(node.style)} set:html={node.html} />}
+{t === 'heading' && node.level === 1 && <h1 style={withAlign(node.style, node.box)} set:html={node.html} />}
+{t === 'heading' && node.level === 2 && <h2 style={withAlign(node.style, node.box)} set:html={node.html} />}
+{t === 'heading' && node.level === 3 && <h3 style={withAlign(node.style, node.box)} set:html={node.html} />}
+{t === 'heading' && node.level === 4 && <h4 style={withAlign(node.style, node.box)} set:html={node.html} />}
+{t === 'heading' && node.level === 5 && <h5 style={withAlign(node.style, node.box)} set:html={node.html} />}
+{t === 'heading' && node.level === 6 && <h6 style={withAlign(node.style, node.box)} set:html={node.html} />}
 
-{t === 'text' && <div class="prose" style={textCss(node.style)} set:html={node.html} />}
+{t === 'text' && <div class="prose" style={withAlign(node.style, node.box)} set:html={node.html} />}
 {t === 'raw' && <div class="prose raw" set:html={node.html} />}
 
 {
@@ -75,7 +95,7 @@ const rowStyle = [rowSec, rowInner].filter(Boolean).join(';') || undefined;
 
 {
   t === 'button' && node.href && (
-    <p class="btn-wrap" style={node.box?.textAlign ? `text-align:${node.box.textAlign}` : undefined}>
+    <p class:list={['btn-wrap', node.align === 'justify' && 'justify']} style={btnAlign}>
       <a class="btn" href={node.href}>
         {node.text}
       </a>
@@ -221,6 +241,12 @@ const rowStyle = [rowSec, rowInner].filter(Boolean).join(';') || undefined;
 
   .btn-wrap {
     margin: 8px 0 22px;
+  }
+
+  /* elementor-align-justify: buton satiri tam kaplar */
+  .btn-wrap.justify .btn {
+    display: block;
+    text-align: center;
   }
 
   .btn {

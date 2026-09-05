@@ -47,6 +47,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": "center",
             "box": null
           }
         ]
@@ -304,6 +305,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": "center",
             "box": null
           }
         ]
@@ -404,6 +406,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": "center",
             "box": null
           }
         ]
@@ -777,6 +780,7 @@
             "type": "button",
             "text": "Danışmanlık Alın",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": null,
             "box": null
           }
         ]
@@ -1017,12 +1021,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/iletisim",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Ülkeleri Karşılaştır",
                 "href": "#ulke-karsilastirma",
+                "align": null,
                 "box": null
               }
             ]
@@ -1292,6 +1298,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "#iletisim",
+            "align": "center",
             "box": null
           }
         ]
@@ -1358,12 +1365,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Al",
                 "href": "#danismanlik-formu",
+                "align": "justify",
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Destek Alanlarını İncele",
                 "href": "#danismanlik-destek-alanlari",
+                "align": "center",
                 "box": null
               }
             ]
@@ -1597,12 +1606,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Al",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Almanya'da Eğitim Seçenekleri",
                 "href": "#almanya-egitim-secenekleri",
+                "align": null,
                 "box": null
               }
             ]
@@ -1809,12 +1820,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": "center",
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Programları İncele",
                 "href": "#almanya-dil-okulu-programlari",
+                "align": null,
                 "box": null
               }
             ]
@@ -2106,12 +2119,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Başvuru Sürecini İnceleyin",
                 "href": "#basvuru-sureci%20",
+                "align": null,
                 "box": null
               }
             ]
@@ -2363,6 +2378,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/iletisim",
+            "align": "center",
             "box": null
           }
         ]
@@ -2431,12 +2447,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Al",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Amerika Programlarını İncele",
                 "href": "#amerika-programlari",
+                "align": null,
                 "box": null
               }
             ]
@@ -2536,6 +2554,7 @@
             "type": "button",
             "text": "Bana Uygun Programı Belirleyin",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": "center",
             "box": null
           }
         ]
@@ -2644,6 +2663,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/iletisim",
+            "align": null,
             "box": null
           }
         ]
@@ -3042,6 +3062,7 @@
                     "type": "button",
                     "text": "Ücretsiz Danışmanlık Alın",
                     "href": "/iletisim",
+                    "align": null,
                     "box": null
                   }
                 ]
@@ -3112,12 +3133,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/ucretsiz-danismanlik-al/#iletisim",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Başvuru Sürecini İnceleyin",
                 "href": "#basvuru-sureci%20",
+                "align": null,
                 "box": null
               }
             ]
@@ -3406,6 +3429,7 @@
             "type": "button",
             "text": "Ücretsiz Ön Değerlendirme Alın",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": null,
             "box": null
           }
         ]
@@ -4188,6 +4212,7 @@
             "type": "button",
             "text": "ABD Vizesi İçin Ücretsiz Ön Değerlendirme Alın",
             "href": "/iletisim",
+            "align": null,
             "box": null
           }
         ]
@@ -4252,12 +4277,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Program Türlerini İncele",
                 "href": "#programlar",
+                "align": null,
                 "box": null
               }
             ]
@@ -4578,6 +4605,7 @@
             "type": "button",
             "text": "Ücretsiz Ön Değerlendirme Alın",
             "href": "/iletisim",
+            "align": null,
             "box": null
           }
         ]
@@ -4977,12 +5005,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Al",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Avustralya Programlarını İncele",
                 "href": "#avustralya-programlari",
+                "align": null,
                 "box": null
               }
             ]
@@ -5085,6 +5115,7 @@
             "type": "button",
             "text": "Bana Uygun Programı Belirleyin",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": "center",
             "box": null
           }
         ]
@@ -5195,6 +5226,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "#iletisim",
+            "align": null,
             "box": null
           }
         ]
@@ -5598,6 +5630,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/iletisim",
+            "align": null,
             "box": null
           }
         ]
@@ -5666,12 +5699,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/iletisim",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Başvuru Koşullarını İnceleyin",
                 "href": "#basvuru",
+                "align": null,
                 "box": null
               }
             ]
@@ -6053,6 +6088,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/iletisim",
+            "align": "center",
             "box": null
           }
         ]
@@ -6120,12 +6156,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Başvuru Sürecini İnceleyin",
                 "href": "#basvuru-sureci",
+                "align": null,
                 "box": null
               }
             ]
@@ -6522,12 +6560,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": "center",
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Programları İncele",
                 "href": "#dubai-dil-okulu-programlari",
+                "align": null,
                 "box": null
               }
             ]
@@ -6865,12 +6905,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Al",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "İngiltere Programlarını İnceleyin",
                 "href": "#ingiltere-programlari",
+                "align": null,
                 "box": null
               }
             ]
@@ -7008,6 +7050,7 @@
             "type": "button",
             "text": "Bana Uygun Programı Belirleyin",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": "center",
             "box": null
           }
         ]
@@ -7143,6 +7186,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": "center",
             "box": null
           }
         ]
@@ -7612,6 +7656,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": "center",
             "box": null
           }
         ]
@@ -7680,12 +7725,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/iletisim",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Başvuru Koşulları",
                 "href": "#basvuru",
+                "align": null,
                 "box": null
               }
             ]
@@ -8063,6 +8110,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/iletisim",
+            "align": "center",
             "box": null
           }
         ]
@@ -8129,12 +8177,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/ucretsiz-danismanlik-al/#iletisim",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Başvuru Sürecini İnceleyin",
                 "href": "#basvuru-sureci%20",
+                "align": null,
                 "box": null
               }
             ]
@@ -8428,12 +8478,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Program Seçenekleri",
                 "href": "#programlar",
+                "align": null,
                 "box": null
               }
             ]
@@ -8691,6 +8743,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/iletisim",
+            "align": "center",
             "box": null
           }
         ]
@@ -8758,12 +8811,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Al",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "İrlanda Programlarını İncele",
                 "href": "#irlanda-programlari",
+                "align": null,
                 "box": null
               }
             ]
@@ -8966,12 +9021,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": "center",
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Programları İncele",
                 "href": "#irlanda-dil-okulu-programlari",
+                "align": null,
                 "box": null
               }
             ]
@@ -9272,12 +9329,14 @@
                 "type": "button",
                 "text": "Bize Ulaşın",
                 "href": "/iletisim/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Program Seçenekleri",
                 "href": "#programlar",
+                "align": null,
                 "box": null
               }
             ]
@@ -9639,6 +9698,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Al",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": "center",
             "box": null
           }
         ]
@@ -9706,12 +9766,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Al",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "İspanya Programlarını İncele",
                 "href": "#ispanya-programlari",
+                "align": null,
                 "box": null
               }
             ]
@@ -9925,12 +9987,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "#iletisim",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Başvuru Sürecini İnceleyin",
                 "href": "#basvuru-sureci%20",
+                "align": null,
                 "box": null
               }
             ]
@@ -10282,6 +10346,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "#iletisim",
+            "align": "center",
             "box": null
           }
         ]
@@ -10349,12 +10414,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Al",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "İtalya Programlarını İncele",
                 "href": "#italya-programlari",
+                "align": null,
                 "box": null
               }
             ]
@@ -10590,12 +10657,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Al",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Kanada Programlarını İncele",
                 "href": "#kanada-programlari",
+                "align": null,
                 "box": null
               }
             ]
@@ -10793,6 +10862,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/iletisim",
+            "align": null,
             "box": null
           }
         ]
@@ -11262,6 +11332,7 @@
                     "type": "button",
                     "text": "Ücretsiz Danışmanlık Alın",
                     "href": "/iletisim",
+                    "align": null,
                     "box": null
                   }
                 ]
@@ -11333,12 +11404,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/iletisim",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Başvuru Koşulları",
                 "href": "#basvuru",
+                "align": null,
                 "box": null
               }
             ]
@@ -11729,6 +11802,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/iletisim",
+            "align": "center",
             "box": null
           }
         ]
@@ -11793,12 +11867,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Başvuru Sürecini İnceleyin",
                 "href": "#basvuru-sureci",
+                "align": null,
                 "box": null
               }
             ]
@@ -12085,12 +12161,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Program Türlerini İncele",
                 "href": "#kanada-yaz-okulu-programlari",
+                "align": null,
                 "box": null
               }
             ]
@@ -12434,12 +12512,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Al",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Malta Programlarını İncele",
                 "href": "#malta-programlari",
+                "align": null,
                 "box": null
               }
             ]
@@ -12645,12 +12725,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Programları İncele",
                 "href": "#malta-dil-okulu-programlari",
+                "align": null,
                 "box": null
               }
             ]
@@ -12922,12 +13004,14 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "#iletisim",
+                "align": null,
                 "box": null
               },
               {
                 "type": "button",
                 "text": "Program Seçenekleri",
                 "href": "#programlar",
+                "align": null,
                 "box": null
               }
             ]
@@ -13166,6 +13250,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "#iletisim",
+            "align": "center",
             "box": null
           }
         ]
@@ -13222,6 +13307,7 @@
             "type": "button",
             "text": "Ücretsiz Ön Değerlendirme Alın",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": "center",
             "box": null
           }
         ]
@@ -13575,6 +13661,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/iletisim",
+            "align": "center",
             "box": null
           }
         ]
@@ -13649,6 +13736,7 @@
             "type": "button",
             "text": "Ücretsiz Ön Değerlendirme Alın",
             "href": "/iletisim",
+            "align": null,
             "box": null
           }
         ]
@@ -14285,6 +14373,7 @@
             "type": "button",
             "text": "İngiltere Vizesi İçin Ücretsiz Ön Değerlendirme Al",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": null,
             "box": null
           }
         ]
@@ -14386,6 +14475,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": null,
             "box": null
           }
         ]
@@ -14778,6 +14868,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/iletisim",
+            "align": null,
             "box": null
           }
         ]
@@ -14843,6 +14934,7 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               }
             ]
@@ -15147,6 +15239,7 @@
                 "type": "button",
                 "text": "Ücretsiz Danışmanlık Alın",
                 "href": "/ucretsiz-danismanlik-al/",
+                "align": null,
                 "box": null
               }
             ]
@@ -15273,6 +15366,7 @@
             "type": "button",
             "text": "Ücretsiz Danışmanlık Alın",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": null,
             "box": null
           }
         ]
@@ -15756,6 +15850,7 @@
             "type": "button",
             "text": "Ücretsiz Profil Değerlendirmesi Al",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": null,
             "box": null
           }
         ]
@@ -15882,6 +15977,7 @@
             "type": "button",
             "text": "Ücretsiz Üniversite Danışmanlığı Alın",
             "href": "/ucretsiz-danismanlik-al/",
+            "align": null,
             "box": null
           }
         ]

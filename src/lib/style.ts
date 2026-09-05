@@ -17,6 +17,15 @@ const SECTION_KEYS = new Set([
   'borderRadius',
 ]);
 
+// Elementor'un masaustu icin yazdigi yukseklik/dolgu degerleri web'de fazla ferah
+// kaliyor. Bunlari dogrudan yazmak yerine ozel degisken olarak veriyoruz; olcekleme
+// ve alt sinir CSS tarafinda yapiliyor (bkz. [...slug].astro .sec.band).
+const AS_CUSTOM_PROP: Record<string, string> = {
+  minHeight: '--sec-min-h',
+  paddingTop: '--sec-pt',
+  paddingBottom: '--sec-pb',
+};
+
 // Ic sarmalayiciya uygulanacak ozellikler
 const INNER_KEYS = new Set([
   'justifyContent',
@@ -26,17 +35,18 @@ const INNER_KEYS = new Set([
   'textAlign',
 ]);
 
-function toCss(o: StyleObj, allow: Set<string>): string | undefined {
+function toCss(o: StyleObj, allow: Set<string>, asProp?: Record<string, string>): string | undefined {
   if (!o) return undefined;
   const parts: string[] = [];
   for (const [k, v] of Object.entries(o)) {
     if (!allow.has(k) || !v) continue;
-    parts.push(`${camelToKebab(k)}:${v}`);
+    const prop = asProp?.[k];
+    parts.push(prop ? `${prop}:${v}` : `${camelToKebab(k)}:${v}`);
   }
   return parts.length ? parts.join(';') : undefined;
 }
 
-export const sectionCss = (o: StyleObj) => toCss(o, SECTION_KEYS);
+export const sectionCss = (o: StyleObj) => toCss(o, SECTION_KEYS, AS_CUSTOM_PROP);
 export const innerCss = (o: StyleObj) => toCss(o, INNER_KEYS);
 
 // Widget metin stilleri (baslik rengi, punto, hizalama)

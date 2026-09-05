@@ -43,9 +43,16 @@ const { page } = Astro.props as { page: any };
     padding-block: 10px;
   }
 
-  /* Zemini olan bolumler tam genislik, icerik ortada kalir */
+  /* Zemini olan bolumler tam genislik, icerik ortada kalir.
+     Elementor'un masaustu icin yazdigi yukseklik/dolgu degerleri web'de fazla
+     ferah kaliyor; --sec-* degiskenlerini olcekleyip alt sinir koyuyoruz. */
   .sec.band {
-    padding-block: 0;
+    --sec-scale: 0.66;
+    /* Yalnizca olcekle, taban ekleme: dolgusu 0 olan bolum 0 kalir.
+       Ust sinir cok yuksek bolumlerin ekrani kaplamasini onler. */
+    min-height: min(calc(var(--sec-min-h, 0px) * var(--sec-scale)), 380px);
+    padding-top: min(calc(var(--sec-pt, 0px) * 0.55), 56px);
+    padding-bottom: min(calc(var(--sec-pb, 0px) * 0.55), 56px);
   }
 
   .sec.band > .wrap {
@@ -53,6 +60,16 @@ const { page } = Astro.props as { page: any };
     flex-direction: column;
     justify-content: center;
     min-height: inherit;
+    /* Zeminli bolumlerde metne yanlarda biraz daha nefes payi */
+    max-width: 1280px;
+  }
+
+  @media (max-width: 700px) {
+    .sec.band {
+      --sec-scale: 0.42;
+      padding-top: min(calc(var(--sec-pt, 0px) * 0.4), 40px);
+      padding-bottom: min(calc(var(--sec-pb, 0px) * 0.4), 40px);
+    }
   }
 
   /* Koyu zeminli bolumde metin acik renge doner */
