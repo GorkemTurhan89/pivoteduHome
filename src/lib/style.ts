@@ -30,14 +30,12 @@ const AS_CUSTOM_PROP: Record<string, string> = {
   paddingRight: '--sec-pr',
 };
 
-// Ic sarmalayiciya uygulanacak ozellikler
-const INNER_KEYS = new Set([
-  'justifyContent',
-  'alignItems',
-  'flexDirection',
-  'gap',
-  'textAlign',
-]);
+// Ic sarmalayiciya uygulanacak ozellikler.
+// flexDirection BILEREK disarida: Elementor'da bu deger konteynerin COCUKLARINI
+// dizer, bizde ise .wrap'in tek cocugu (.row) var. Uygulanirsa .row bir flex
+// item olarak icerigine buzulur ve icindeki izgara tek sutuna duser
+// (sayaclar ve gorseller alt alta gelir). Yatay dizilimi zaten .grid yapiyor.
+const INNER_KEYS = new Set(['justifyContent', 'alignItems', 'gap', 'textAlign']);
 
 function toCss(o: StyleObj, allow: Set<string>, asProp?: Record<string, string>): string | undefined {
   if (!o) return undefined;

@@ -159,6 +159,10 @@ const rowStyle = [rowSec, rowInner].filter(Boolean).join(';') || undefined;
     display: flex;
     flex-direction: column;
     gap: 4px;
+    /* Ust sarmalayici flex olabildigi icin .row asla icerigine buzulmemeli;
+       buzulurse icindeki izgara tek sutuna duser. */
+    width: 100%;
+    min-width: 0;
   }
 
   .row.band {
@@ -196,8 +200,13 @@ const rowStyle = [rowSec, rowInner].filter(Boolean).join(';') || undefined;
     gap: 16px;
   }
 
+  /* Uretimde olculdu: 5 gorsel 205x400px, object-fit:cover, kosesiz,
+     5px boslukla ortalanmis bir serit. Oran korunarak esnek hale getirildi. */
   .grid-image {
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
   }
 
   .card {
@@ -284,11 +293,14 @@ const rowStyle = [rowSec, rowInner].filter(Boolean).join(';') || undefined;
 
   .grid-image .img-wrap {
     margin: 0;
-    aspect-ratio: 4 / 3;
+    flex: 0 1 205px;
+    aspect-ratio: 205 / 400;
+    border-radius: 0;
   }
 
   .grid-image .img-wrap img {
     height: 100%;
+    object-fit: cover;
   }
 
   .acc {
