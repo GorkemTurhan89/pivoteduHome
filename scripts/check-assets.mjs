@@ -48,5 +48,22 @@ const broken = [...refs].filter(([u]) => !fs.existsSync(path.join(PUB, u)));
 
 for (const [u, where] of broken) console.error(`KIRIK  ${u}\n       ilk goruldugu sayfa: ${where}`);
 
-console.log(`\ngorsel referansi: ${refs.size} | kirik: ${broken.length}`);
-process.exit(broken.length ? 1 : 0);
+// Uretime mutlak baglanan varliklar: staging canli siteye bagimli kalmamali.
+const HOTLINK = /(?:src|href)="https:\/\/pivotedu\.com\.tr\/wp-content|url\(\s*['"]?https:\/\/pivotedu\.com\.tr/g;
+const hotlinks = [];
+(function scanHot(dir) {
+  for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+    const p = path.join(dir, e.name);
+    if (e.isDirectory()) scanHot(p);
+    else if (e.name.endsWith('.html')) {
+      const n = (fs.readFileSync(p, 'utf8').match(HOTLINK) || []).length;
+      if (n) hotlinks.push({ page: path.relative(DIST, p), n });
+    }
+  }
+})(DIST);
+
+for (const h of hotlinks) console.error(`HOTLINK  ${h.page}  (${h.n} adet uretime mutlak baglanti)`);
+
+const fail = broken.length + hotlinks.length;
+console.log(`\ngorsel referansi: ${refs.size} | kirik: ${broken.length} | hotlink sayfasi: ${hotlinks.length}`);
+process.exit(fail ? 1 : 0);

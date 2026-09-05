@@ -256,6 +256,12 @@
     }
   },
   "15553820": {
+    "overlay": {
+      "opacity": "0.26",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/pexels-kampus-5940838-scaled.jpg)",
+      "backgroundPosition": "center center",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -265,10 +271,7 @@
       "justifyContent": "space-between",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-kampus-5940838-scaled.jpg)",
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "16765513": {
@@ -443,6 +446,11 @@
     }
   },
   "76764390": {
+    "overlay": {
+      "opacity": "0.54",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/pexels-joaojesusdesign-804715-scaled.jpg)",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -452,9 +460,7 @@
       "justifyContent": "space-around",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-joaojesusdesign-804715-scaled.jpg)",
-      "backgroundSize": "cover"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "76880165": {
@@ -615,6 +621,9 @@
     }
   },
   "af6da9c": {
+    "overlay": {
+      "opacity": "1"
+    },
     "container": {
       "paddingTop": "80px",
       "paddingBottom": "80px",
@@ -622,8 +631,7 @@
       "paddingRight": "40px",
       "justifyContent": "center",
       "alignItems": "center",
-      "flexDirection": "column",
-      "backgroundColor": "#1B2D5C"
+      "flexDirection": "column"
     }
   },
   "3b0083f": {
@@ -652,6 +660,9 @@
     }
   },
   "95a04b6": {
+    "overlay": {
+      "opacity": "0.5"
+    },
     "container": {
       "paddingTop": "60px",
       "paddingBottom": "60px",
@@ -659,8 +670,7 @@
       "paddingRight": "20px",
       "justifyContent": "center",
       "alignItems": "center",
-      "flexDirection": "column",
-      "backgroundColor": "#FFFFFF"
+      "flexDirection": "column"
     }
   },
   "be5cab5": {
@@ -1544,6 +1554,9 @@
     }
   },
   "2368d737": {
+    "overlay": {
+      "opacity": "0.5"
+    },
     "container": {
       "paddingTop": "60px",
       "paddingBottom": "60px",
@@ -1581,6 +1594,10 @@
     }
   },
   "7d598c4c": {
+    "overlay": {
+      "opacity": "0.76",
+      "backgroundImage": "linear-gradient(180deg,#0F1E40 44%,#2F29F2 100%)"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -1590,8 +1607,8 @@
       "justifyContent": "space-around",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "transparent",
-      "backgroundImage": "linear-gradient(180deg,#0F1E40 44%,#2F29F2 100%)",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/pexels-vlada-karpovich-4449617-scaled.jpg)",
       "backgroundSize": "cover",
       "backgroundPosition": "top center"
     }
@@ -1999,6 +2016,9 @@
     }
   },
   "66fae844": {
+    "overlay": {
+      "opacity": "0.68"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -2175,6 +2195,11 @@
     }
   },
   "1852d77e": {
+    "overlay": {
+      "opacity": "0.37",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/trip-planning-with-map-2026-01-07-23-40-11-utc-scaled.jpg)",
+      "backgroundPosition": "-297px -626px"
+    },
     "container": {
       "paddingTop": "10px",
       "paddingBottom": "10px",
@@ -2184,9 +2209,7 @@
       "justifyContent": "center",
       "alignItems": "center",
       "gap": "5px 5px",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/trip-planning-with-map-2026-01-07-23-40-11-utc-scaled.jpg)",
-      "backgroundPosition": "-297px -626px"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "2de2b6f8": {
@@ -2703,6 +2726,9 @@
     }
   },
   "f22c996": {
+    "overlay": {
+      "opacity": "0.5"
+    },
     "container": {
       "paddingTop": "60px",
       "paddingBottom": "60px",
@@ -2740,6 +2766,12 @@
     }
   },
   "253f9a97": {
+    "overlay": {
+      "opacity": "0.54",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/pexels-roy-ryu-2150807397-32329040-scaled.jpg)",
+      "backgroundPosition": "center center",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -2749,10 +2781,7 @@
       "justifyContent": "space-around",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-roy-ryu-2150807397-32329040-scaled.jpg)",
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "1a3ad30": {
@@ -3091,6 +3120,10 @@
     }
   },
   "44252a72": {
+    "overlay": {
+      "opacity": "0.68",
+      "backgroundImage": "linear-gradient(180deg,#1B2D5C 72%,#EE6B2F 100%)"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -3099,8 +3132,8 @@
       "minHeight": "520px",
       "justifyContent": "center",
       "flexDirection": "column",
-      "backgroundColor": "#fff0",
-      "backgroundImage": "linear-gradient(180deg,#1B2D5C 72%,#EE6B2F 100%)",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/pexels-robinerino-3084564-scaled.jpg)",
       "backgroundSize": "cover",
       "backgroundPosition": "bottom center"
     }
@@ -3430,6 +3463,12 @@
     }
   },
   "348e845": {
+    "overlay": {
+      "opacity": "0.45",
+      "backgroundImage": "url(/wp-content/uploads/2026/04/avustralya-hero-sydney-panorama.jpg)",
+      "backgroundPosition": "center center",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -3439,10 +3478,7 @@
       "justifyContent": "center",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/04/avustralya-hero-sydney-panorama.jpg)",
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "d812ee4": {
@@ -3883,6 +3919,9 @@
     }
   },
   "cf09496": {
+    "overlay": {
+      "opacity": "0.5"
+    },
     "container": {
       "paddingTop": "60px",
       "paddingBottom": "60px",
@@ -3920,6 +3959,12 @@
     }
   },
   "7848368e": {
+    "overlay": {
+      "opacity": "0.59",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/spanish-flag-fluttering-with-cathedral-in-backgrou-2026-03-26-05-10-33-utc-scaled.jpg)",
+      "backgroundPosition": "top center",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -3929,10 +3974,7 @@
       "justifyContent": "flex-end",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/spanish-flag-fluttering-with-cathedral-in-backgrou-2026-03-26-05-10-33-utc-scaled.jpg)",
-      "backgroundSize": "cover",
-      "backgroundPosition": "top center"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "5f425590": {
@@ -4241,6 +4283,10 @@
     }
   },
   "5d5c25e1": {
+    "overlay": {
+      "opacity": "0.68",
+      "backgroundImage": "linear-gradient(180deg,#1B2D5C 72%,#EE6B2F 100%)"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -4249,8 +4295,8 @@
       "minHeight": "520px",
       "justifyContent": "center",
       "flexDirection": "column",
-      "backgroundColor": "transparent",
-      "backgroundImage": "linear-gradient(180deg,#1B2D5C 72%,#EE6B2F 100%)",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/pexels-angelos-lamprakopoulos-3670919-34699762-scaled.jpg)",
       "backgroundSize": "cover",
       "backgroundPosition": "bottom center"
     }
@@ -5206,6 +5252,9 @@
     }
   },
   "d0f40ad": {
+    "overlay": {
+      "opacity": "0.5"
+    },
     "container": {
       "paddingTop": "60px",
       "paddingBottom": "60px",
@@ -5243,6 +5292,12 @@
     }
   },
   "3fe5cca4": {
+    "overlay": {
+      "opacity": "0.33",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/pexels-alesiakozik-7069392-scaled.jpg)",
+      "backgroundPosition": "0px -717px",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -5252,10 +5307,7 @@
       "justifyContent": "space-around",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-alesiakozik-7069392-scaled.jpg)",
-      "backgroundSize": "cover",
-      "backgroundPosition": "0px -717px"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "7fdebb93": {
@@ -5959,6 +6011,9 @@
     }
   },
   "751911cf": {
+    "overlay": {
+      "opacity": "0.68"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -6150,6 +6205,12 @@
     }
   },
   "48d795cd": {
+    "overlay": {
+      "opacity": "0.24",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/hands-point-on-map-where-to-go-travel-planing-vaca-2026-03-26-04-28-48-utc-1-scaled.jpg)",
+      "backgroundPosition": "bottom center",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -6159,10 +6220,7 @@
       "justifyContent": "space-between",
       "alignItems": "center",
       "gap": "0px 0px",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/hands-point-on-map-where-to-go-travel-planing-vaca-2026-03-26-04-28-48-utc-1-scaled.jpg)",
-      "backgroundSize": "cover",
-      "backgroundPosition": "bottom center"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "58729fe1": {
@@ -6485,6 +6543,9 @@
     }
   },
   "51f8d59": {
+    "overlay": {
+      "opacity": "0.5"
+    },
     "container": {
       "paddingTop": "60px",
       "paddingBottom": "60px",
@@ -6527,6 +6588,9 @@
     }
   },
   "2672d45a": {
+    "overlay": {
+      "opacity": "0.3"
+    },
     "container": {
       "paddingTop": "80px",
       "paddingBottom": "80px",
@@ -6588,6 +6652,11 @@
     }
   },
   "72c71095": {
+    "overlay": {
+      "opacity": "0.54",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/pexels-kelly-16563049-scaled.jpg)",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -6596,9 +6665,7 @@
       "minHeight": "520px",
       "justifyContent": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-kelly-16563049-scaled.jpg)",
-      "backgroundSize": "cover"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "44b30ce9": {
@@ -7399,6 +7466,11 @@
     }
   },
   "3d01ede4": {
+    "overlay": {
+      "opacity": "0.54",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/pexels-timmossholder-8080493-scaled.jpg)",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -7407,9 +7479,7 @@
       "minHeight": "520px",
       "justifyContent": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-timmossholder-8080493-scaled.jpg)",
-      "backgroundSize": "cover"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "1a6d3833": {
@@ -8021,12 +8091,15 @@
     }
   },
   "430248d": {
+    "overlay": {
+      "opacity": "0.5",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/students-engaged-in-group-study-at-the-library-2026-03-25-03-14-36-utc-scaled.jpg.webp)",
+      "backgroundPosition": "83px -346px",
+      "backgroundSize": "cover"
+    },
     "container": {
       "minHeight": "348px",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/students-engaged-in-group-study-at-the-library-2026-03-25-03-14-36-utc-scaled.jpg.webp)",
-      "backgroundSize": "cover",
-      "backgroundPosition": "83px -346px"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "2d502ea1": {
@@ -8268,6 +8341,12 @@
     }
   },
   "72adb458": {
+    "overlay": {
+      "opacity": "0.36",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/pexels-roy-ryu-2150807397-32329031-scaled.jpg)",
+      "backgroundPosition": "0 733px",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -8276,10 +8355,7 @@
       "minHeight": "520px",
       "justifyContent": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-roy-ryu-2150807397-32329031-scaled.jpg)",
-      "backgroundSize": "cover",
-      "backgroundPosition": "0 733px"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "56dc25f1": {
@@ -9541,6 +9617,9 @@
     }
   },
   "b213e1e": {
+    "overlay": {
+      "opacity": "0.5"
+    },
     "container": {
       "paddingTop": "60px",
       "paddingBottom": "60px",
@@ -9578,6 +9657,12 @@
     }
   },
   "738ba908": {
+    "overlay": {
+      "opacity": "0.54",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/pexels-shreyas-sane-54878068-7822980-scaled.jpg)",
+      "backgroundPosition": "center center",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -9587,10 +9672,7 @@
       "justifyContent": "space-around",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-shreyas-sane-54878068-7822980-scaled.jpg)",
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "3829b9d7": {
@@ -9759,6 +9841,12 @@
     }
   },
   "a84ecb9": {
+    "overlay": {
+      "opacity": "0.27",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/yurt-disi-universite-egitimi.webp-scaled.jpg)",
+      "backgroundPosition": "0px -107px",
+      "backgroundSize": "100%auto"
+    },
     "container": {
       "paddingTop": "60px",
       "paddingBottom": "60px",
@@ -9768,10 +9856,7 @@
       "justifyContent": "center",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/yurt-disi-universite-egitimi.webp-scaled.jpg)",
-      "backgroundSize": "100%auto",
-      "backgroundPosition": "0px -107px"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "6c66b63": {
@@ -10510,6 +10595,11 @@
     }
   },
   "6e96dfae": {
+    "overlay": {
+      "opacity": "0.54",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/pexels-alesiakozik-7072130-scaled.jpg)",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -10519,9 +10609,7 @@
       "justifyContent": "space-around",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/pexels-alesiakozik-7072130-scaled.jpg)",
-      "backgroundSize": "cover"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "5cd7560d": {
@@ -10890,6 +10978,10 @@
     }
   },
   "e49e6a1": {
+    "overlay": {
+      "opacity": "0.68",
+      "backgroundImage": "linear-gradient(180deg,#1B2D5C 72%,#EE6B2F 100%)"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -10898,8 +10990,8 @@
       "minHeight": "520px",
       "justifyContent": "center",
       "flexDirection": "column",
-      "backgroundColor": "transparent",
-      "backgroundImage": "linear-gradient(180deg,#1B2D5C 72%,#EE6B2F 100%)",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/view-at-the-oxford-university-oxford-un-2026-03-16-04-29-48-utc-scaled.jpg)",
       "backgroundSize": "cover",
       "backgroundPosition": "bottom center"
     }
@@ -11209,6 +11301,11 @@
     }
   },
   "19c337ce": {
+    "overlay": {
+      "opacity": "0.54",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/view-of-a-shield-of-the-royal-palace-in-madrid-2026-03-26-01-43-42-utc.jpg)",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -11218,9 +11315,7 @@
       "justifyContent": "space-around",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/view-of-a-shield-of-the-royal-palace-in-madrid-2026-03-26-01-43-42-utc.jpg)",
-      "backgroundSize": "cover"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "6c77b997": {
@@ -11382,6 +11477,9 @@
     }
   },
   "20803ac": {
+    "overlay": {
+      "opacity": "0.2"
+    },
     "container": {
       "paddingTop": "80px",
       "paddingBottom": "80px",
@@ -11951,6 +12049,12 @@
     }
   },
   "e3c602e": {
+    "overlay": {
+      "opacity": "0.3",
+      "backgroundImage": "url(/wp-content/uploads/2026/04/ingiltere-hero-tower-bridge-wide.jpg)",
+      "backgroundPosition": "center center",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -11960,10 +12064,7 @@
       "justifyContent": "center",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/04/ingiltere-hero-tower-bridge-wide.jpg)",
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "0386415": {
@@ -12719,6 +12820,10 @@
     }
   },
   "334f2402": {
+    "overlay": {
+      "opacity": "0.54",
+      "backgroundImage": "linear-gradient(180deg,#1B2D5C 0%,#0F1E40 50%)"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -12728,8 +12833,8 @@
       "justifyContent": "space-around",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "transparent",
-      "backgroundImage": "linear-gradient(180deg,#1B2D5C 0%,#0F1E40 50%)",
+      "backgroundColor": "#1B2D5C",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/pexels-lara-jameson-8828416-scaled.jpg)",
       "backgroundSize": "cover",
       "backgroundPosition": "center center"
     }
@@ -12890,6 +12995,11 @@
     }
   },
   "dd650ab": {
+    "overlay": {
+      "opacity": "0.54",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/almanya-universite-egitimi-hero-scaled.jpg)",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -12898,9 +13008,7 @@
       "minHeight": "520px",
       "justifyContent": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/almanya-universite-egitimi-hero-scaled.jpg)",
-      "backgroundSize": "cover"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "5d02837": {
@@ -13222,6 +13330,12 @@
     }
   },
   "6cf2c24e": {
+    "overlay": {
+      "opacity": "0.39",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/beautiful-iconic-london-eye-in-front-of-thames-riv-2026-03-16-06-18-07-utc-scaled.jpg)",
+      "backgroundPosition": "center center",
+      "backgroundSize": "100% auto"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -13231,10 +13345,7 @@
       "justifyContent": "space-around",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/beautiful-iconic-london-eye-in-front-of-thames-riv-2026-03-16-06-18-07-utc-scaled.jpg)",
-      "backgroundSize": "100% auto",
-      "backgroundPosition": "center center"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "7d8c3b60": {
@@ -13765,6 +13876,11 @@
     }
   },
   "189214bb": {
+    "overlay": {
+      "opacity": "0.54",
+      "backgroundImage": "url(/wp-content/uploads/2026/05/gulls-over-grand-canal-2026-03-25-10-48-58-utc-scaled.jpg)",
+      "backgroundSize": "cover"
+    },
     "container": {
       "paddingTop": "100px",
       "paddingBottom": "100px",
@@ -13774,9 +13890,7 @@
       "justifyContent": "space-around",
       "alignItems": "center",
       "flexDirection": "column",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/05/gulls-over-grand-canal-2026-03-25-10-48-58-utc-scaled.jpg)",
-      "backgroundSize": "cover"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "5bfc899b": {
@@ -13932,6 +14046,11 @@
     }
   },
   "86c1559": {
+    "overlay": {
+      "opacity": "0.3",
+      "backgroundImage": "url(/wp-content/uploads/2026/04/pexels-towfiqu-barbhuiya-3440682-10972830-scaled.jpg)",
+      "backgroundPosition": "center center"
+    },
     "container": {
       "paddingTop": "80px",
       "paddingBottom": "80px",
@@ -13940,9 +14059,7 @@
       "minHeight": "183px",
       "justifyContent": "center",
       "alignItems": "center",
-      "backgroundColor": "#1B2D5C",
-      "backgroundImage": "url(https://pivotedu.com.tr/wp-content/uploads/2026/04/pexels-towfiqu-barbhuiya-3440682-10972830-scaled.jpg)",
-      "backgroundPosition": "center center"
+      "backgroundColor": "#1B2D5C"
     }
   },
   "0e4c394": {
@@ -14367,6 +14484,9 @@
     }
   },
   "74169c8": {
+    "overlay": {
+      "opacity": "0.5"
+    },
     "container": {
       "paddingTop": "60px",
       "paddingBottom": "60px",

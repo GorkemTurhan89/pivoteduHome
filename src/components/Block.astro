@@ -3,7 +3,9 @@ import Self from './Block.astro';
 import LeadForm from './LeadForm.astro';
 import { sectionCss, innerCss, textCss, buttonCss, isDark } from '../lib/style';
 
-const { node } = Astro.props as { node: any };
+// sectionApplied: ust duzey bolumlerde zemin/dolgu zaten <section>'a uygulandi,
+// burada tekrar uygulanmamali; yalnizca cocuklari dizen ozellikler .row'a gider.
+const { node, sectionApplied = false } = Astro.props as { node: any; sectionApplied?: boolean };
 
 // Ard arda gelen ayni tipteki kart bloklarini izgaraya topla.
 const GRIDABLE = new Set(['iconbox', 'counter', 'image']);
@@ -49,15 +51,19 @@ const btnAlign =
         : undefined
     : undefined;
 
-const rowSec = t === 'row' ? sectionCss(node.style) : undefined;
+const rowSec = t === 'row' && !sectionApplied ? sectionCss(node.style) : undefined;
 const rowInner = t === 'row' ? innerCss(node.style) : undefined;
-const rowDark = t === 'row' ? isDark(node.style) : false;
+const rowDark = t === 'row' && !sectionApplied ? isDark(node.style) : false;
 const rowStyle = [rowSec, rowInner].filter(Boolean).join(';') || undefined;
 ---
 
 {
   t === 'row' && (
-    <div class:list={['row', { cols: node.layout === 'cols', dark: rowDark, band: !!rowSec }]} style={rowStyle}>
+    <div
+      id={sectionApplied ? undefined : node.anchor || undefined}
+      class:list={['row', { cols: node.layout === 'cols', dark: rowDark, band: !!rowSec }]}
+      style={rowStyle}
+    >
       {group(node.children).map((c: any) => <Self node={c} />)}
     </div>
   )
@@ -189,6 +195,11 @@ const rowStyle = [rowSec, rowInner].filter(Boolean).join(';') || undefined;
     display: grid;
     gap: 20px;
     margin: 14px 0 26px;
+    /* .row yatay yonde olabilir; izgara o zaman da tam genisligi kaplamali,
+       yoksa icerigine buzulup tek sutuna duser. */
+    width: 100%;
+    flex: 1 1 100%;
+    min-width: 0;
   }
 
   .grid-iconbox {
@@ -251,10 +262,10 @@ const rowStyle = [rowSec, rowInner].filter(Boolean).join(';') || undefined;
     margin: 8px 0 22px;
   }
 
-  /* elementor-align-justify: buton satiri tam kaplar */
-  .btn-wrap.justify .btn {
-    display: block;
-    text-align: center;
+  /* elementor-align-justify: uretimde olculdu, butonu TAM GENISLIK YAPMIYOR.
+     Widget'a text-align:start veriyor, buton dogal genisliginde inline-block kaliyor. */
+  .btn-wrap.justify {
+    text-align: left;
   }
 
   .btn {
@@ -263,7 +274,8 @@ const rowStyle = [rowSec, rowInner].filter(Boolean).join(';') || undefined;
     color: #fff;
     font-weight: 600;
     font-size: 16px;
-    padding: 13px 28px;
+    /* Uretimde olculdu: Elementor "size-sm" varsayilani 12px 24px */
+    padding: 12px 24px;
     border-radius: 8px;
     /* Uretimde butonlar alti cizili geliyor (Hello Elementor'un
        ".page-content a { text-decoration: underline }" kurali butonu da yakaliyor).

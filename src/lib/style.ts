@@ -30,12 +30,11 @@ const AS_CUSTOM_PROP: Record<string, string> = {
   paddingRight: '--sec-pr',
 };
 
-// Ic sarmalayiciya uygulanacak ozellikler.
-// flexDirection BILEREK disarida: Elementor'da bu deger konteynerin COCUKLARINI
-// dizer, bizde ise .wrap'in tek cocugu (.row) var. Uygulanirsa .row bir flex
-// item olarak icerigine buzulur ve icindeki izgara tek sutuna duser
-// (sayaclar ve gorseller alt alta gelir). Yatay dizilimi zaten .grid yapiyor.
-const INNER_KEYS = new Set(['justifyContent', 'alignItems', 'gap', 'textAlign']);
+// Konteynerin cocuklarini dizen ozellikler. Bunlar .wrap'e DEGIL .row'a
+// uygulanmalidir: Elementor'da bu degerler konteynerin COCUKLARINI dizer ve
+// gercek cocuklar .row icinde durur. .wrap'e uygulanirsa (tek cocugu oldugu icin)
+// .row bir flex item olarak icerigine buzulur ve izgara tek sutuna duser.
+const INNER_KEYS = new Set(['justifyContent', 'alignItems', 'flexDirection', 'gap', 'textAlign']);
 
 function toCss(o: StyleObj, allow: Set<string>, asProp?: Record<string, string>): string | undefined {
   if (!o) return undefined;
@@ -78,6 +77,23 @@ const BUTTON_KEYS = new Set([
   'borderStyle',
 ]);
 export const buttonCss = (o: StyleObj) => toCss(o, BUTTON_KEYS);
+
+// Elementor "arka plan kaplamasi": gorsel ::before sozde-elementinde durur ve
+// konteynerin --overlay-opacity degeriyle zemin renginin uzerine biner.
+// Ayri bir katman olarak cizilir; elementin kendi zemini altta kalir.
+const OVERLAY_KEYS = new Set([
+  'backgroundImage',
+  'backgroundPosition',
+  'backgroundSize',
+  'backgroundRepeat',
+]);
+
+export function overlayCss(o: StyleObj): string | undefined {
+  if (!o?.backgroundImage || o.backgroundImage === 'none') return undefined;
+  const base = toCss(o, OVERLAY_KEYS);
+  const op = o.opacity;
+  return [base, op ? `opacity:${op}` : undefined].filter(Boolean).join(';');
+}
 
 // Bir bolumun zemini koyu mu? Koyuysa icindeki metni acik renge cekeriz.
 export function isDark(o: StyleObj): boolean {

@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Block from '../components/Block.astro';
 import pages from '../data/pages.json';
-import { sectionCss, innerCss, isDark } from '../lib/style';
+import { sectionCss, isDark, overlayCss } from '../lib/style';
 
 export function getStaticPaths() {
   return (pages as any[]).map((p) => ({
@@ -25,12 +25,19 @@ const { page } = Astro.props as { page: any };
   {
     page.sections.map((s: any) => {
       const sec = sectionCss(s.style);
-      const inner = innerCss(s.style);
       const dark = isDark(s.style);
+      const ov = overlayCss(s.overlay);
       return (
-        <section class:list={['sec', { dark, band: !!sec, full: s.width === 'full' }]} style={sec}>
-          <div class="wrap" style={inner}>
-            <Block node={{ ...s, style: null }} />
+        <section
+          id={s.anchor || undefined}
+          class:list={['sec', { dark, band: !!sec, full: s.width === 'full', 'has-overlay': !!ov }]}
+          style={sec}
+        >
+          {ov && <span class="sec-overlay" style={ov} aria-hidden="true" />}
+          <div class="wrap">
+            {/* Cocuklari dizen ozellikler (flex-direction, justify-content, gap)
+                .wrap'e degil Block'un urettigi .row'a uygulanir. */}
+            <Block node={s} sectionApplied />
           </div>
         </section>
       );
@@ -41,6 +48,20 @@ const { page } = Astro.props as { page: any };
 <style>
   .sec {
     padding-block: 10px;
+  }
+
+  /* Arka plan kaplamasi: zemin renginin uzerinde, icerigin altinda ayri katman */
+  .sec.has-overlay {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .sec-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    display: block;
+    pointer-events: none;
   }
 
   /* Zemini olan bolumler tam genislik, icerik ortada kalir.
